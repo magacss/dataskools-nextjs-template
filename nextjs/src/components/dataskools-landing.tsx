@@ -513,7 +513,7 @@ function Footer() {
       <Section className="py-14">
         <div className="grid gap-10 md:grid-cols-2">
           <div>
-            <h3 className="text-[32px] leading-[1.1] tracking-tight">Never miss what's next</h3>
+            <h3 className="text-[32px] leading-[1.1] tracking-tight">Never miss what&apos;s next</h3>
             <form className="mt-6 flex max-w-md gap-2" onSubmit={(e) => e.preventDefault()}>
               <input
                 className="h-[41px] w-full rounded-[2px] border border-[#2a2a2a] bg-transparent px-3 placeholder:text-[#F1F1F1]/50"
