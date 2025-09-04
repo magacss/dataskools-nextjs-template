@@ -401,7 +401,8 @@ function Process() {
     <Section id="process" className="py-16">
       <div className="mb-8">
         <p className={`${TOKENS.mono} uppercase text-xs text-[#121212]/70`}>Ablauf</p>
-        <h2 className="mt-2 text-3xl font-semibold tracking-tight">So läuft's ab</h2>
+        <h2 className="mt-2 text-3xl font-semibold tracking-tight">So l&auml;uft&apos;s ab</h2>
+
       </div>
       <ol className="grid gap-6 md:grid-cols-3">
         {steps.map((s) => (
@@ -521,8 +522,9 @@ function Footer() {
               <GButton variant="outline">Submit</GButton>
             </form>
             <p className="mt-3 max-w-lg text-xs opacity-60">
-              By submitting your email, you’ll be the first to know about updates. You can unsubscribe at any time.
-            </p>
+  By submitting your email, you&apos;ll be the first to know about updates. You can unsubscribe at any time.
+</p>
+
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             <div>
